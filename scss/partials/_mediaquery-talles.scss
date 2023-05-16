@@ -1,0 +1,27 @@
+@media screen and (max-width:425px) {
+    .seccion-talles{
+        width: 425px;
+        justify-content: center;
+        align-items: center;
+        
+        .guia-de-talles{
+            display: none;
+            }
+        
+        .informacion-talles{
+            width: 425px;
+            margin: 0;
+            
+            .title-guia{
+                width: 425px;
+                margin: 0 0 20px 0;
+                }
+            
+            .medidas-info{
+                width: 425px;
+                margin: 0;
+                padding-right: 50px;
+                }
+            }
+        }
+    }

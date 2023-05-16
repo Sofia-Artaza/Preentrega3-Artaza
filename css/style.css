@@ -1,0 +1,559 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1-encabezado-envio {
+  background-color: #b56576;
+  width: 1300px;
+  margin-left: 30px;
+}
+
+.section2-encabezado-buscador .buscador {
+  border-color: #b56576;
+  color: #b56576;
+}
+.section2-encabezado-buscador .links {
+  text-decoration: none;
+  color: #b56576;
+}
+.section2-encabezado-buscador .dar {
+  color: #b56576;
+  position: relative;
+  left: 350px;
+}
+.section2-encabezado-buscador .iconos-varios {
+  color: #b56576;
+}
+
+.section-responsive .buscador-responsive {
+  display: none;
+}
+.section-responsive .canasto-responsive {
+  display: none;
+}
+
+.section3-navegador ul {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+.section3-navegador li {
+  display: inline;
+}
+.section3-navegador .links {
+  text-decoration: none;
+  color: #b56576;
+}
+
+.redes {
+  background-color: #b56576;
+  width: 1300px;
+}
+
+.section1-carrusel {
+  width: 1300px;
+  margin-left: 30px;
+}
+
+.section2-infoutil {
+  width: 900px;
+}
+.section2-infoutil .informacion-envioypago {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Libre Franklin", sans-serif;
+  color: #b56576;
+  display: inline-block;
+}
+.section2-infoutil .iconos-varios {
+  color: #b56576;
+}
+
+.section3-novedades .contenedor-novedades {
+  background-color: #b56576;
+  width: 1280px;
+  margin-left: 30px;
+}
+.section3-novedades .novedades {
+  color: white;
+  text-align: center;
+}
+.section3-novedades .tarjetas {
+  width: 1280px;
+  position: relative;
+  left: 40px;
+}
+
+.seccion-productos {
+  display: grid;
+  display: flex;
+  width: 100vw;
+  column-gap: 10px;
+  grid-template-columns: 50px 950px;
+  grid-area: categorias;
+  grid-area: todos-los-productoss;
+  grid-template-areas: "categorias todos-los-productos";
+  width: 1280px;
+}
+.seccion-productos .categorias {
+  width: 150px;
+  margin: 10px 5px 0 25px;
+  padding: 0;
+}
+.seccion-productos .categorias .subtitulo-corazon {
+  display: flex;
+}
+.seccion-productos .categorias .subtitulo-corazon .subtitulos, .seccion-productos .categorias .subtitulo-corazon .seccion-compras .tips-de-compra .subtitulo-compras .sub-title-compra, .seccion-compras .tips-de-compra .subtitulo-compras .seccion-productos .categorias .subtitulo-corazon .sub-title-compra, .seccion-productos .categorias .subtitulo-corazon .seccion-talles .guia-de-talles .subtitulo-silueta .sub-title-guia, .seccion-talles .guia-de-talles .subtitulo-silueta .seccion-productos .categorias .subtitulo-corazon .sub-title-guia {
+  justify-content: left;
+  text-align: left;
+  color: #b56576;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: medium;
+}
+.seccion-productos .categorias .subtitulo-categorias {
+  text-align: left;
+  justify-content: left;
+  color: #b56576;
+  font-size: medium;
+}
+.seccion-productos .categorias .lista-categorias {
+  padding: 0;
+  text-align: left;
+  justify-content: left;
+}
+.seccion-productos .categorias .lista-categorias .li-prod {
+  color: #b56576;
+  margin: 5px 50px 5px 0;
+  font-size: medium;
+}
+.seccion-productos .categorias .lista-categorias .li-prod .categoria-prod {
+  text-decoration: none;
+  color: #b56576;
+}
+.seccion-productos .todos-los-productos {
+  width: 1110px;
+  height: 100%;
+  justify-content: center;
+}
+.seccion-productos .todos-los-productos .titulos-grandes, .seccion-productos .todos-los-productos .seccion-talles .informacion-talles .title-guia, .seccion-talles .informacion-talles .seccion-productos .todos-los-productos .title-guia {
+  color: white;
+  text-align: center;
+  background-color: #b56576;
+  width: 1110px;
+  margin: 10px 0 10px 0;
+}
+.seccion-productos .btn-mostrar {
+  position: relative;
+  left: 440px;
+  color: white;
+  background-color: #b56576;
+  border: #b56576;
+}
+
+.titulos-grandes, .seccion-talles .informacion-talles .title-guia {
+  color: white;
+  text-align: center;
+  background-color: #b56576;
+  width: 1110px;
+  margin: 10px 0 10px 0;
+}
+
+.subtitulos, .seccion-compras .tips-de-compra .subtitulo-compras .sub-title-compra, .seccion-talles .guia-de-talles .subtitulo-silueta .sub-title-guia {
+  justify-content: left;
+  text-align: left;
+  color: #b56576;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: medium;
+}
+
+.seccion-talles {
+  display: grid;
+  display: flex;
+  width: 100vw;
+  column-gap: 10px;
+  grid-template-columns: 50px 950px;
+  grid-area: guia-de-talles;
+  grid-area: informacion-talles;
+  grid-template-areas: "guia-de-talles informacion-talles";
+  width: 1280px;
+}
+.seccion-talles .guia-de-talles {
+  width: 150px;
+  margin: 10px 5px 0 50px;
+  padding: 0;
+}
+.seccion-talles .guia-de-talles .subtitulo-silueta {
+  display: flex;
+}
+.seccion-talles .guia-de-talles .silueta-mujer {
+  width: 150px;
+}
+.seccion-talles .informacion-talles {
+  width: 650px;
+  height: 100%;
+  justify-content: center;
+}
+.seccion-talles .informacion-talles .medidas-info {
+  width: 1100px;
+  padding-left: 50px;
+}
+.seccion-talles .informacion-talles .medidas-info p {
+  font-size: x-large;
+  text-align: left;
+  justify-self: left;
+}
+
+.titulos-grandes, .seccion-talles .informacion-talles .title-guia {
+  color: white;
+  text-align: center;
+  background-color: #b56576;
+  width: 1110px;
+  margin: 10px 0 10px 0;
+}
+
+.subtitulos, .seccion-compras .tips-de-compra .subtitulo-compras .sub-title-compra, .seccion-talles .guia-de-talles .subtitulo-silueta .sub-title-guia {
+  justify-content: left;
+  text-align: left;
+  color: #b56576;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: medium;
+}
+
+.seccion-compras {
+  display: grid;
+  display: flex;
+  width: 100vw;
+  column-gap: 10px;
+  grid-template-columns: 50px 950px;
+  grid-area: tips-de-compra;
+  grid-area: informacion-compras;
+  grid-template-areas: "tips-de-compra informacion-compras";
+  width: 1280px;
+}
+.seccion-compras .tips-de-compra {
+  width: 150px;
+  height: 100%;
+  margin: 10px 5px 0 50px;
+  padding: 0;
+}
+.seccion-compras .tips-de-compra .subtitulo-compras {
+  display: block;
+}
+.seccion-compras .tips-de-compra .subtitulo-compras .tips-envioypago {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Libre Franklin", sans-serif;
+  color: #b56576;
+  margin-bottom: 30px;
+}
+.seccion-compras .tips-de-compra .subtitulo-compras .iconos-varios {
+  color: #b56576;
+}
+.seccion-compras .informacion-compras {
+  width: 1000px;
+  height: 100%;
+  justify-content: center;
+}
+.seccion-compras .informacion-compras .subtitulo-informacion {
+  color: white;
+  text-align: center;
+  background-color: #b56576;
+  width: 1050px;
+  margin: 10px 0 10px 60px;
+}
+.seccion-compras .informacion-compras .subtitulo-pasos {
+  color: #b56576;
+  padding-left: 62px;
+}
+.seccion-compras .informacion-compras .pasos {
+  display: block;
+  font-size: large;
+  padding-left: 40px;
+}
+
+.seccion-contacto {
+  display: grid;
+  display: flex;
+  width: 100vw;
+  column-gap: 10px;
+  grid-template-columns: 50px 950px;
+  grid-area: informacion-contacto;
+  grid-area: informacion-formulario;
+  grid-template-areas: "informacion-contacto informacion-formulario";
+  width: 1280px;
+}
+.seccion-contacto .informacion-contacto {
+  width: 250px;
+  height: 100%;
+  margin: 10px 5px 0 50px;
+  padding: 0;
+}
+.seccion-contacto .informacion-contacto .subtitulo-contacto {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #b56576;
+}
+.seccion-contacto .informacion-contacto .texto-contacto {
+  display: flex;
+  color: #b56576;
+  font-size: medium;
+}
+.seccion-contacto .informacion-contacto .texto-contacto .iconos-varios {
+  color: #b56576;
+}
+.seccion-contacto .informacion-contacto .texto-contacto .datos-contacto {
+  margin-top: 23px;
+}
+.seccion-contacto .informacion-formulario {
+  width: 900px;
+  height: 100%;
+  justify-content: center;
+  padding-left: 50px;
+}
+.seccion-contacto .informacion-formulario .subtitulo-info-contacto {
+  color: white;
+  text-align: center;
+  background-color: #b56576;
+  width: 950px;
+  margin: 10px 0 10px 0;
+}
+.seccion-contacto .informacion-formulario .formulario-contacto {
+  margin-top: 30px;
+}
+.seccion-contacto .informacion-formulario .formulario-contacto .datos-formulario {
+  color: #b56576;
+  padding: 10px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.seccion-contacto .informacion-formulario .boton-enviar {
+  margin-top: 20px;
+  color: white;
+  background-color: #b56576;
+  padding: 5px 15px 5px 15px;
+  margin-left: 700px;
+  border: #b56576;
+}
+
+@media screen and (max-width: 425px) {
+  .section1-encabezado-envio {
+    background-color: #b56576;
+    width: 425px;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+  }
+  .section1-encabezado-envio .corazon {
+    font-size: x-large;
+  }
+  .section2-encabezado-buscador {
+    width: 425px;
+  }
+  .section2-encabezado-buscador .buscador {
+    display: none;
+  }
+  .section2-encabezado-buscador .dar {
+    position: unset;
+    margin-left: 70px;
+  }
+  .section2-encabezado-buscador .canasto {
+    display: none;
+  }
+  .section-responsive {
+    width: 425px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    padding: 0 25px 25px 25px;
+  }
+  .section-responsive .buscador-responsive {
+    display: block;
+    border-color: #b56576;
+    color: #b56576;
+  }
+  .section-responsive .canasto-responsive {
+    display: block;
+    color: #b56576;
+  }
+  .section3-navegador ul {
+    width: 425px;
+    margin-top: 15px;
+    padding: 20px 140px 20px 140px;
+    background-color: #b56576;
+  }
+  .section3-navegador ul .respo {
+    color: white;
+  }
+}
+@media screen and (max-width: 425px) {
+  .redes {
+    width: 425px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .redes .text-comunidad {
+    font-size: medium;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section1-carrusel {
+    width: 425px;
+    margin: 0;
+  }
+  .section2-infoutil {
+    width: 425px;
+    margin: 0;
+  }
+  .section3-novedades {
+    width: 425px;
+    margin: 0;
+  }
+  .section3-novedades .contenedor-novedades {
+    width: 425px;
+    margin: 0;
+  }
+  .section3-novedades .tarjetas {
+    width: 425px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .seccion-productos {
+    width: 425px;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-productos .categorias {
+    display: none;
+  }
+  .seccion-productos .todos-los-productos {
+    width: 425px;
+    margin: 0;
+  }
+  .seccion-productos .todos-los-productos .title-prod {
+    width: 425px;
+    margin: 0;
+  }
+  .seccion-productos .todos-los-productos .productos-card {
+    width: 425px;
+    margin: 0;
+  }
+  .seccion-productos .todos-los-productos .btn-mostrar {
+    position: relative;
+    left: 100px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .seccion-talles {
+    width: 425px;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-talles .guia-de-talles {
+    display: none;
+  }
+  .seccion-talles .informacion-talles {
+    width: 425px;
+    margin: 0;
+  }
+  .seccion-talles .informacion-talles .title-guia {
+    width: 425px;
+    margin: 0 0 20px 0;
+  }
+  .seccion-talles .informacion-talles .medidas-info {
+    width: 425px;
+    margin: 0;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .seccion-compras {
+    width: 425px;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-compras .tips-de-compra {
+    display: none;
+  }
+  .seccion-compras .informacion-compras {
+    width: 425px;
+    margin: 0;
+  }
+  .seccion-compras .informacion-compras .title-compra {
+    width: 425px;
+    margin: 0 0 20px 0;
+  }
+  .seccion-compras .informacion-compras .subtitulo-pasos {
+    width: 425px;
+    margin: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .seccion-compras .informacion-compras ol {
+    width: 425px;
+    margin: 0;
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .seccion-contacto {
+    width: 425px;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-contacto .informacion-contacto {
+    display: none;
+  }
+  .seccion-contacto .informacion-formulario {
+    width: 425px;
+    margin: 0;
+    padding: 0;
+  }
+  .seccion-contacto .informacion-formulario .subtitulo-info-contacto {
+    width: 425px;
+    margin: 0 0 20px 0;
+  }
+  .seccion-contacto .informacion-formulario .boton-enviar {
+    position: relative;
+    left: 300px;
+    margin: 0;
+  }
+  .seccion-contacto .informacion-contacto-responsive {
+    width: 425px;
+    margin-top: 50px;
+    padding: 0 30px 0 30px;
+  }
+  .seccion-contacto .informacion-contacto-responsive .subtitulo-contacto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #b56576;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+  }
+  .seccion-contacto .informacion-contacto-responsive p {
+    color: #b56576;
+    margin: 20px 0 40px 0;
+  }
+  .seccion-contacto .informacion-contacto-responsive .texto-contacto {
+    color: #b56576;
+    display: flex;
+    margin: 5px 0 5px 0;
+  }
+  .seccion-contacto .informacion-contacto-responsive .texto-contacto .datos-contacto {
+    text-align: center;
+    margin-top: 8px;
+    padding-top: 8px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

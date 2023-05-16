@@ -1,0 +1,28 @@
+@media screen and (max-width:425px){
+    .seccion-productos{
+        width: 425px;
+        justify-content: center;
+        align-items: center;
+        
+        .categorias{
+            display: none;
+        }
+        
+        .todos-los-productos{
+            width: 425px;
+            margin: 0;
+            .title-prod{
+                width: 425px;
+                margin: 0;
+                }
+            .productos-card{
+                width: 425px;
+                margin: 0;
+            }
+            .btn-mostrar{
+                position: relative;
+                left: 100px;
+                }
+            }
+        }
+    }

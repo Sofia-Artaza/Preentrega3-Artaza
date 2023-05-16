@@ -1,0 +1,41 @@
+
+.section1-carrusel{
+    width: 1300px;
+    margin-left: 30px;
+}
+
+
+.section2-infoutil{
+    width: 900px;
+    
+    .informacion-envioypago{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: $color-principal;
+    display: inline-block;
+    }
+    
+    .iconos-varios{
+        color: $color-principal;
+    }
+}
+
+.section3-novedades{
+    .contenedor-novedades{
+        background-color: $color-principal;
+        width: 1280px;
+        margin-left: 30px;
+        }
+    .novedades{
+        color: $color-secundario;
+        text-align: center;
+        }
+    
+    .tarjetas{
+        width: 1280px;
+        position: relative;
+        left: 40px;
+        }
+    }
+

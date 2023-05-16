@@ -1,0 +1,36 @@
+
+@media screen and (max-width: 425px) {
+    .seccion-compras{
+        width: 425px;
+        justify-content: center;
+        align-items: center;
+        
+        .tips-de-compra{
+            display: none;
+            }
+        
+        .informacion-compras{
+            width: 425px;
+            margin: 0;
+            
+            .title-compra{
+                width: 425px;
+                margin: 0 0 20px 0;
+                }
+            
+            .subtitulo-pasos{
+                width: 425px;
+                margin: 0;
+                padding-right: 30px;
+                padding-left: 30px;
+                }
+            
+            ol{
+                width: 425px;
+                margin: 0;
+                padding-right: 50px;
+                padding-left: 30px;
+                }
+            }
+        }
+    }

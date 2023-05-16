@@ -1,0 +1,64 @@
+@import "../partials/extend";
+
+.seccion-compras{
+    display: grid;
+    display: flex;
+    width: 100vw;
+    column-gap: 10px;
+    grid-template-columns: 50px 950px;
+    grid-area: tips-de-compra;
+    grid-area: informacion-compras;
+    grid-template-areas: 
+    "tips-de-compra informacion-compras";
+    width: 1280px;
+    
+    .tips-de-compra{
+        width: 150px;
+        height: 100%;
+        margin: 10px 5px 0 50px;
+        padding: 0;
+        
+        .subtitulo-compras{
+            display: block;
+            
+            .sub-title-compra{
+                @extend .subtitulos
+                }
+            
+            .tips-envioypago{
+                text-align: left;
+                font-size: 18px;
+                font-family: 'Libre Franklin', sans-serif;
+                color:  $color-principal;
+                margin-bottom: 30px;
+                }
+                
+            .iconos-varios{
+                color:  $color-principal;
+                }
+            }
+        }
+    
+    .informacion-compras{
+        width: 1000px;
+        height: 100%;
+        justify-content: center;
+        
+        .subtitulo-informacion{
+            color: $color-secundario;
+            text-align: center;
+            background-color: $color-principal;
+            width: 1050px;
+            margin: 10px 0 10px 60px;
+            }
+        .subtitulo-pasos{
+                color: $color-principal;
+                padding-left: 62px;
+            }
+        .pasos{
+                display: block;
+                font-size: large;
+                padding-left: 40px;
+            }
+        }
+    }

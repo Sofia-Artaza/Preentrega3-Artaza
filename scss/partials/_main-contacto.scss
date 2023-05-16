@@ -1,0 +1,99 @@
+
+
+.seccion-contacto{
+    display: grid;
+    display: flex;
+    width: 100vw;
+    column-gap: 10px;
+    grid-template-columns: 50px 950px;
+    grid-area: informacion-contacto;
+    grid-area: informacion-formulario;
+    grid-template-areas: 
+    "informacion-contacto informacion-formulario";
+    width: 1280px;
+    
+    .informacion-contacto{
+        width: 250px;
+        height: 100%;
+        margin: 10px 5px 0 50px;
+        padding: 0;
+        
+        .subtitulo-contacto{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: $color-principal;
+        }
+        
+        .texto-contacto{
+            display: flex;
+            color: $color-principal;
+            font-size: medium;
+            
+            .iconos-varios{
+                color: $color-principal;
+            }
+            
+            .datos-contacto{
+                margin-top: 23px}
+            }
+        }
+        
+    .informacion-formulario{
+        width: 900px;
+        height: 100%;
+        justify-content: center;
+        padding-left: 50px;
+        
+        .subtitulo-info-contacto{
+            color: $color-secundario;
+            text-align: center;
+            background-color:$color-principal;
+            width: 950px;
+            margin: 10px 0 10px 0;
+            }
+        
+        .formulario-contacto{
+            margin-top: 30px;
+        
+            .datos-formulario{
+                color: $color-principal;
+                padding: 10px;
+                font-size: large;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+        
+        .boton-enviar{
+            margin-top: 20px;
+            color: $color-secundario;
+            background-color: $color-principal;
+            padding: 5px 15px 5px 15px;
+            margin-left: 700px;
+            border: $color-principal;
+            }
+        }
+    
+    }
+
+    .informacion-contacto-responsive{
+        display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

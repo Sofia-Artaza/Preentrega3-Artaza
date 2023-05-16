@@ -1,0 +1,64 @@
+
+.section1-encabezado-envio{
+    background-color: $color-principal;
+    width: 1300px;
+    margin-left: 30px;
+}
+
+.section2-encabezado-buscador{
+    .buscador{
+        border-color: $color-principal;
+        color: $color-principal;
+    }
+    
+    .links{
+        text-decoration: none;
+        color: $color-principal;
+    }
+    
+    .dar{
+        color: $color-principal;
+        position: relative;
+        left: 350px;
+    }
+    
+    .iconos-varios{
+        color: $color-principal;
+    }
+}
+
+.section-responsive{
+    .buscador-responsive{
+        display: none;
+    }
+
+    .canasto-responsive{
+        display: none;
+    }
+}
+
+.section3-navegador{
+    
+    ul{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    } 
+    
+    li{
+        display:inline;
+    }
+    
+    .links{
+        text-decoration: none;
+        color: $color-principal;
+    }
+    
+}
+
+
+
+
+
+
+

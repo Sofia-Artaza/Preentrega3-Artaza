@@ -1,0 +1,61 @@
+@media screen and (max-width:425px) {
+
+    .section1-encabezado-envio{
+        background-color: $color-principal;
+        width: 425px;
+        margin: 0;
+        padding: 10px 20px 10px 20px;
+        
+        .corazon{
+            font-size: x-large;
+            }
+        }
+    
+    .section2-encabezado-buscador{
+        width: 425px;
+        
+        .buscador{
+            display: none;
+            }
+            
+        .dar{
+            position:unset;
+            margin-left: 70px;
+            }
+        
+        .canasto{
+            display: none;
+            }
+        }
+    
+    .section-responsive{
+        width: 425px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: 0;
+        padding: 0 25px 25px 25px;
+        
+        .buscador-responsive{
+            display: block;
+            border-color: $color-principal;
+            color: $color-principal;
+            }
+        
+        .canasto-responsive{
+            display: block;
+            color: $color-principal;
+            }
+        }
+    
+    .section3-navegador ul{
+        width: 425px;
+        margin-top: 15px;
+        padding: 20px 140px 20px 140px;
+        background-color: $color-principal;
+        
+        .respo{
+            color: white;
+            }
+        }  
+    }
